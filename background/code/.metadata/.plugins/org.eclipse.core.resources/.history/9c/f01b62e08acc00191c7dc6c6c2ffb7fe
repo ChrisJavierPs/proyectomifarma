@@ -1,0 +1,5 @@
+package com.mifarma.proyecto.controller;
+
+public class CorsFilter {
+
+}

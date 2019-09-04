@@ -1,0 +1,16 @@
+package com.mifarma.proyecto.controller;
+
+@Configuration
+public class CorsConfiguration
+{
+    @Bean
+    public WebMvcConfigurer corsConfigurer()
+    {
+        return new WebMvcConfigurerAdapter() {
+            @Override
+            public void addCorsMappings(CorsRegistry registry) {
+                registry.addMapping("/**");
+            }
+        };
+    }
+}

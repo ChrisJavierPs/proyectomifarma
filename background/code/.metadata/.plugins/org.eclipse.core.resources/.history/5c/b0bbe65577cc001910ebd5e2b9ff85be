@@ -1,0 +1,28 @@
+package com.mifarma.proyecto.servicio.impl;
+
+import java.util.List;
+
+import com.mifarma.proyecto.modelo.Cliente;
+import com.mifarma.proyecto.servicio.ClienteService;
+
+public class ClienteServiceImpl implements ClienteService {
+
+	@Override
+	public List<Cliente> listar() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Cliente listarId(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Cliente add(Cliente c) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

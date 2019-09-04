@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\mifarma\background\code\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+4265752267.index
+2809336134.index
+2023717660.index
+1135537497.index
+1923428907.index
+3070556836.index

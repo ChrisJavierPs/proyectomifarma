@@ -1,0 +1,9 @@
+package com.mifarma.proyecto.repository;
+
+import org.springframework.data.repository.Repository;
+
+import com.mifarma.proyecto.modelo.Cliente;
+
+public interface ClienteRepositorio extends Repository<Cliente, Integer> {
+
+}

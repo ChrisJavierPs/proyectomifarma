@@ -1,0 +1,13 @@
+Create database mifarma;
+
+
+use mifarma;
+
+
+Create table Cliente(
+codigo int primary key auto_increment not null,
+nombre varchar(50) not null,
+apellido varchar(50) not null,
+edad int not null,
+fecha_nacimiento datetime not null
+);
